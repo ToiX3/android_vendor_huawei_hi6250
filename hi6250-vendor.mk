@@ -49,3 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/proprietary/vendor/lib64/libshim_libgui.so:system/vendor/lib64/libshim_libgui.so \
     vendor/huawei/hi6250/proprietary/vendor/lib64/libshim_libui.so:system/vendor/lib64/libshim_libui.so \
     vendor/huawei/hi6250/proprietary/vendor/lib64/libxml2.so:system/vendor/lib64/libxml2.so \
+
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/huawei/hi6250/recovery/,recovery/root/)

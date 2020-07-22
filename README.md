@@ -1,1 +1,1 @@
-# Honor / Huawei HI6250 Proprietary Blobs
+# Vendor Blobs for hi6250 EMUI 5
